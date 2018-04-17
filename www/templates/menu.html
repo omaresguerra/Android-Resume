@@ -1,0 +1,50 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-dark">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left" style="background-image:  url(img/gray.jpg); background-size: 1000px;">
+
+    <ion-header-bar class="bar-royal">
+      <h1 class="title">Menu</h1>
+    </ion-header-bar>
+
+    <ion-content class="my-container" style="background-image:  url(img/gray.jpg); background-size: 1000px;">
+      <ion-list>
+        <ion-item class="item-dark">
+          <center><img src="img/omar.png" class="profile"></center>
+          <center><b class="name">John Omar Esguerra</b><br>
+          <p style="color: #fff; font-family: Segoe UI Light">esguerrajohnomar@gmail.com</p></center>
+        </ion-item>
+        <ion-item class="item-dark" menu-close href="#/app/dictionary">
+        <i class="icon ion-person" style="font-size:20px;margin-right:10px; margin-left: 10px;"></i>
+          Personal Information
+        </ion-item>
+        <ion-item class="item-dark" menu-close href="#/app/education">
+        <i class="icon ion-university" style="font-size:20px;margin-right:10px; margin-left: 10px;"></i>
+           Educational Background
+        </ion-item>
+        <ion-item class="item-dark" menu-close href="#/app/training">
+        <i class="icon ion-compose" style="font-size:20px;margin-right:10px; margin-left: 10px;"></i>
+          Trainings Attended
+        </ion-item>
+        <ion-item class="item-dark" menu-close href="#/app/certificate">
+        <i class="icon ion-ribbon-a" style="font-size:20px;margin-right:10px; margin-left: 10px;"></i>
+          Certifications
+        </ion-item>
+        <ion-item class="item-dark" menu-close href="#/app/note">
+        <i class="icon ion-edit" style="font-size:20px;margin-right:10px; margin-left: 10px;"></i>
+          Personal Note
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
